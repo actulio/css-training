@@ -9,6 +9,7 @@ Quick Reference to each component directory type.
 - [Search Bars](/search-bars)
 - [Hover Effects](/hover-effects)
 - [Loading Animations](/loading-animations)
+- [Animated Cards](/cards)
 
 # Requirements
 
