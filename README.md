@@ -13,4 +13,4 @@ Quick Reference to each component directory type.
 
 # Requirements
 
-I use to extensions on vscode to watch and serve the html and compile the scss, which are _Live Server_ and _Live Sass Compiler_ from Ritwick Dey
+I use two extensions on vscode to watch and serve the html and to compile the scss, which are _Live Server_ and _Live Sass Compiler_ from Ritwick Dey
