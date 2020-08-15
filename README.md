@@ -10,6 +10,7 @@ Quick Reference to each component directory type.
 - [Hover Effects](/hover-effects)
 - [Loading Animations](/loading-animations)
 - [Animated Cards](/cards)
+- [Inputs](/inputs)
 
 # Requirements
 
