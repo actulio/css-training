@@ -1,0 +1,79 @@
+:root {
+  --dark-color: #635bff;
+  --light-color: #80e9ff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.triangles {
+  cursor: pointer;
+  #darkGroup {
+    fill: var(--dark-color);
+  }
+  #lightGroup {
+    fill: var(--light-color);
+  }
+
+  #dark1,
+  #dark2,
+  #light1 {
+    transition: all 1s ease;
+  }
+
+  #dark2 {
+    transform: translateX(-100%);
+  }
+
+  &:hover {
+    #light1 {
+      transform: translateX(20%);
+    }
+    #dark1 {
+      transform: translateX(40%);
+      opacity: 0;
+    }
+    #dark2 {
+      transform: translateX(0%);
+    }
+  }
+}
+
+.phone {
+  #skeleton {
+    animation: fadeInUp 1s;
+  }
+  #bolt g {
+    opacity: 0;
+    animation: dropIn 5s ease forwards infinite;
+    animation-delay: calc(var(--order) * 200ms);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dropIn {
+  20% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  30%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
